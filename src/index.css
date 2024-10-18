@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply h-screen bg-[#141414] text-white;
+    @apply h-screen bg-grey-900 text-white font-inter;
   }
 }

@@ -4,7 +4,7 @@ type Props = {
 
 const Container = ({ children }: Props) => {
   return (
-    <section className="w-full h-screen flex justify-center items-start border-white border-4">
+    <section className="w-full h-screen flex justify-center items-center">
       {children}
     </section>
   )

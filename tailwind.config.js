@@ -20,7 +20,16 @@ export default {
         'lime': {
           '350': '#C4F82A'
         }
-      }
+      },
+      fontSize: {
+        'xxs': '0.875rem',
+      },
+      width: {
+        '22': '5.5rem',
+      },
+      height: {
+        '22': '5.5rem',
+      },
     },
   },
   plugins: [],
