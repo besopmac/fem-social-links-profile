@@ -3,25 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-    font-family: 'Inter';
-    src: url(/fonts/Inter-Regular.woff2) format('woff2');
-  }
-  @font-face {
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-    font-family: 'Inter';
-    src: url(/fonts/Inter-SemiBold.woff2) format('woff2');
-  }
-  @font-face {
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-    font-family: 'Inter';
-    src: url(/fonts/Inter-Bold.woff2) format('woff2');
+  body {
+    @apply h-screen bg-[#141414] text-white;
   }
 }
